@@ -6,6 +6,10 @@ layout "admin"
     end
 
     def orders
-        layout "order_admin"
+      render layout: "order_administration"
+    end
+
+    def invoice
+        render layout: 
     end
 end

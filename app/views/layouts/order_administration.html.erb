@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Layouts and Templates in Rails Lab</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<h1>Flatiron Widgets: Open Orders</h1>
+<ol>
+<li>Order Sample A</li>
+<li>Order Sample B</li>
+<li>Order Sample C</li>
+<li>Order Sample D</li>
+</ol>
+
+<%= yield %>
+
+</body>
+</html>
